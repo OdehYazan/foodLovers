@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+
+header{
+    background-color: rgba(255, 229, 72, 255);
+}
+header img{
+    width: 150px;
+    height: 100px;
+}
+header h1 {
+    display: inline-block;
+    font-family: 'Fredoka One', cursive;
+    color: red;
+    font-size:xx-large;
+   position: relative;
+   left: 35%;
+   bottom: 40px;
+    
+}
+main{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    
+}
+#left{
+    display: inline-block;
+    background-color:rgba(255, 229, 72, 255); 
+    width: 40%;
+    height: 250px;
+
+    border-radius: 10px;
+
+
+}
+#right{
+    display: inline-block;
+    border-radius: 10px;
+    background-color:rgba(255, 229, 72, 255); 
+    width: 55%;
+    margin-left: 50px;
+}
+#right img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#myForm{
+    position: relative;
+    left: 35%;
+   
+    
+
+}
+#myForm fieldset{
+    padding-top: 50px;
+    
+}
+#myForm fieldset label{
+    color: red;
+    margin-top: 50px;
+
+    
+    
+}
+#foodType{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+#myForm input{
+    /* position: relative;
+    top: 50px; */
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#btn{
+    background-color: red;
+}
+
+
+table{
+    border: 1px solid red;
+    margin-left: 50px;
+}
+th {
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+
+
+}
+td{
+    border: 1px solid red;
+}
+footer{
+    background-color:rgba(255, 229, 72, 255); 
+}
